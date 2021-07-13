@@ -1,6 +1,6 @@
 {
   "name": "nuxt-png-to-ico",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Nuxt.js module for auto generating favicons",
   "repository": "b5710546232/nuxt-png-to-ico",
   "license": "MIT",
