@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-png-to-ico",
+  "version": "0.0.0",
+  "description": "Nuxt.js module for auto generating favicons",
+  "repository": "b5710546232/nuxt-png-to-ico",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "b5710546232 <safe.suk@gmail.com>"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "scripts": {
+    "dev": "nuxt example",
+    "generate": "nuxt generate example",
+    "lint": "eslint --ext .js,.vue .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {
+    "png-to-ico": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "chalk": "^4.1.1",
+    "eslint": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
