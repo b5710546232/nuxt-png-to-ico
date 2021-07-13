@@ -56,7 +56,7 @@ Thank you nice project
 
 [MIT License](./LICENSE)
 
-Copyright (c) b5710546232 <safe.suk@gmail.com>
+Copyright (c) b5710546232 <safesuk.dev@gmail.com>
 
 <!-- Badges -->
 
