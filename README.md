@@ -17,10 +17,10 @@
 1. Add `nuxt-png-to-ico` dependency to your project
 
 ```bash
-yarn add nuxt-png-to-ico # or npm install nuxt-png-to-ico
+yarn add -D nuxt-png-to-ico # or npm install --save-dev nuxt-png-to-ico
 ```
 
-2. Add `nuxt-png-to-ico` to the `modules` section of `nuxt.config.js`
+2. Add `nuxt-png-to-ico` to the `buildModules` section of `nuxt.config.js`
 
 ```js
 // prepare input and output path
@@ -28,7 +28,7 @@ const inputIconFilePath = resolve(__dirname, './static/icon.png')
 const outputIconFilePath = resolve(__dirname, './static/favicon.ico')
 
 {
-  modules: [
+  buildModules: [
     [
       'nuxt-png-to-ico',
       {
